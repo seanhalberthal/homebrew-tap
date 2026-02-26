@@ -1,9 +1,9 @@
 class Abletondiscordrpc < Formula
   desc "Discord Rich Presence for Ableton Live"
   homepage "https://github.com/seanhalberthal/abletondiscordrpc"
-  url "https://github.com/seanhalberthal/abletondiscordrpc/releases/download/v1.8.0/arpc"
-  version "1.8.0"
-  sha256 "e9818d50b0e1e0f3abe9b46cb395369a686dcb6b7c68a0e884f81d6ebb3a2209"
+  url "https://github.com/seanhalberthal/abletondiscordrpc/releases/download/v1.8.1/arpc"
+  version "1.8.1"
+  sha256 "0d7978bdf3e2491b30f1b0da1fa9a2445574f3bf670d33bc672cfb906057011f"
   license "MIT"
 
   def install

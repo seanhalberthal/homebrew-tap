@@ -1,26 +1,26 @@
 class Jiratui < Formula
   desc "Terminal UI for Jira built with Bubble Tea"
   homepage "https://github.com/seanhalberthal/jiratui"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/seanhalberthal/jiratui/releases/download/v0.1.0/jiratui-darwin-arm64"
-      sha256 "4453f4053e39f364991ce18d4c96f8665e6f3c11cad4fd2ff269c6c3f8656f25"
+      url "https://github.com/seanhalberthal/jiratui/releases/download/v0.1.1/jiratui-darwin-arm64"
+      sha256 "6449e9f51a94674389b2a40b8364d995bb03472c4d968d4fd3bffdac1d56c44b"
     else
-      url "https://github.com/seanhalberthal/jiratui/releases/download/v0.1.0/jiratui-darwin-amd64"
-      sha256 "4453f4053e39f364991ce18d4c96f8665e6f3c11cad4fd2ff269c6c3f8656f25"
+      url "https://github.com/seanhalberthal/jiratui/releases/download/v0.1.1/jiratui-darwin-amd64"
+      sha256 "6449e9f51a94674389b2a40b8364d995bb03472c4d968d4fd3bffdac1d56c44b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/seanhalberthal/jiratui/releases/download/v0.1.0/jiratui-linux-arm64"
-      sha256 "4453f4053e39f364991ce18d4c96f8665e6f3c11cad4fd2ff269c6c3f8656f25"
+      url "https://github.com/seanhalberthal/jiratui/releases/download/v0.1.1/jiratui-linux-arm64"
+      sha256 "6449e9f51a94674389b2a40b8364d995bb03472c4d968d4fd3bffdac1d56c44b"
     else
-      url "https://github.com/seanhalberthal/jiratui/releases/download/v0.1.0/jiratui-linux-amd64"
-      sha256 "4453f4053e39f364991ce18d4c96f8665e6f3c11cad4fd2ff269c6c3f8656f25"
+      url "https://github.com/seanhalberthal/jiratui/releases/download/v0.1.1/jiratui-linux-amd64"
+      sha256 "6449e9f51a94674389b2a40b8364d995bb03472c4d968d4fd3bffdac1d56c44b"
     end
   end
 

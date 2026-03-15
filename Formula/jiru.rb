@@ -7,20 +7,20 @@ class Jiru < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/seanhalberthal/jiru/releases/download/v0.1.0/jiru-darwin-arm64"
-      sha256 "6449e9f51a94674389b2a40b8364d995bb03472c4d968d4fd3bffdac1d56c44b"
+      sha256 "8688cd8a0c478bc307888b5f4ea31563adc31805f6c8c249ec83f0b182f336b8"
     else
       url "https://github.com/seanhalberthal/jiru/releases/download/v0.1.0/jiru-darwin-amd64"
-      sha256 "6449e9f51a94674389b2a40b8364d995bb03472c4d968d4fd3bffdac1d56c44b"
+      sha256 "8688cd8a0c478bc307888b5f4ea31563adc31805f6c8c249ec83f0b182f336b8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/seanhalberthal/jiru/releases/download/v0.1.0/jiru-linux-arm64"
-      sha256 "6449e9f51a94674389b2a40b8364d995bb03472c4d968d4fd3bffdac1d56c44b"
+      sha256 "8688cd8a0c478bc307888b5f4ea31563adc31805f6c8c249ec83f0b182f336b8"
     else
       url "https://github.com/seanhalberthal/jiru/releases/download/v0.1.0/jiru-linux-amd64"
-      sha256 "6449e9f51a94674389b2a40b8364d995bb03472c4d968d4fd3bffdac1d56c44b"
+      sha256 "8688cd8a0c478bc307888b5f4ea31563adc31805f6c8c249ec83f0b182f336b8"
     end
   end
 

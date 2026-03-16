@@ -1,13 +1,13 @@
 class Lazycron < Formula
   desc "Terminal UI for managing cron jobs — locally and over SSH"
   homepage "https://github.com/seanhalberthal/lazycron"
-  version "0.2.4"
+  version "0.2.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/seanhalberthal/lazycron/releases/download/v0.2.4/lazycron-darwin-arm64"
-      sha256 "1d286adda38a04c518afa718d601682203c7008602ed8e0bf191b3d18a8ad6e4"
+      url "https://github.com/seanhalberthal/lazycron/releases/download/v0.2.5/lazycron-darwin-arm64"
+      sha256 "ed7ca9a7e58772a188d4b3e29da3449b9455aec572d7ac334d57ea82a4f1240c"
 
       def install
         bin.install "lazycron-darwin-arm64" => "lazycron"
@@ -15,8 +15,8 @@ class Lazycron < Formula
     end
 
     on_intel do
-      url "https://github.com/seanhalberthal/lazycron/releases/download/v0.2.4/lazycron-darwin-amd64"
-      sha256 "2e44fcfb09e8e6f229e0c58f0f090b6a812eab4207341aa0f7b2413805256a5f"
+      url "https://github.com/seanhalberthal/lazycron/releases/download/v0.2.5/lazycron-darwin-amd64"
+      sha256 "d8a6f68ffc75beb5717af3aff1ff3ca55c23be1614de2643aff1fca0718b095e"
 
       def install
         bin.install "lazycron-darwin-amd64" => "lazycron"
@@ -26,8 +26,8 @@ class Lazycron < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/seanhalberthal/lazycron/releases/download/v0.2.4/lazycron-linux-arm64"
-      sha256 "f19a49987c0e99ae75d3b233f49b80c52d913a06e117c29ff86bae6ac25e2717"
+      url "https://github.com/seanhalberthal/lazycron/releases/download/v0.2.5/lazycron-linux-arm64"
+      sha256 "e394e478277a14c0e9232e74277c11e2ff67e26c9321bc018948124bddad6995"
 
       def install
         bin.install "lazycron-linux-arm64" => "lazycron"
@@ -35,8 +35,8 @@ class Lazycron < Formula
     end
 
     on_intel do
-      url "https://github.com/seanhalberthal/lazycron/releases/download/v0.2.4/lazycron-linux-amd64"
-      sha256 "b21db6ddc0ef162021a5ac452fb9d83b03ad15278cc1bd813f7e4dbe9f7a1a15"
+      url "https://github.com/seanhalberthal/lazycron/releases/download/v0.2.5/lazycron-linux-amd64"
+      sha256 "cf9021e3896d4a2362030cb00771a52bd97d6c546976071ae324a971d0653003"
 
       def install
         bin.install "lazycron-linux-amd64" => "lazycron"

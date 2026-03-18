@@ -1,26 +1,26 @@
 class Jiru < Formula
   desc "Terminal UI for Jira built with Bubble Tea"
   homepage "https://github.com/seanhalberthal/jiru"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/seanhalberthal/jiru/releases/download/v0.1.6/jiru-darwin-arm64"
-      sha256 "382850019e84bdef0625741d174b0eb430cc08e6a220449d82bb03bab73caff7"
+      url "https://github.com/seanhalberthal/jiru/releases/download/v0.1.7/jiru-darwin-arm64"
+      sha256 "68590d685d6b15b390c2b5a4bd42f96c751c6da59748a0b233a357ee6d5af8a1"
     else
-      url "https://github.com/seanhalberthal/jiru/releases/download/v0.1.6/jiru-darwin-amd64"
-      sha256 "382850019e84bdef0625741d174b0eb430cc08e6a220449d82bb03bab73caff7"
+      url "https://github.com/seanhalberthal/jiru/releases/download/v0.1.7/jiru-darwin-amd64"
+      sha256 "68590d685d6b15b390c2b5a4bd42f96c751c6da59748a0b233a357ee6d5af8a1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/seanhalberthal/jiru/releases/download/v0.1.6/jiru-linux-arm64"
-      sha256 "382850019e84bdef0625741d174b0eb430cc08e6a220449d82bb03bab73caff7"
+      url "https://github.com/seanhalberthal/jiru/releases/download/v0.1.7/jiru-linux-arm64"
+      sha256 "68590d685d6b15b390c2b5a4bd42f96c751c6da59748a0b233a357ee6d5af8a1"
     else
-      url "https://github.com/seanhalberthal/jiru/releases/download/v0.1.6/jiru-linux-amd64"
-      sha256 "382850019e84bdef0625741d174b0eb430cc08e6a220449d82bb03bab73caff7"
+      url "https://github.com/seanhalberthal/jiru/releases/download/v0.1.7/jiru-linux-amd64"
+      sha256 "68590d685d6b15b390c2b5a4bd42f96c751c6da59748a0b233a357ee6d5af8a1"
     end
   end
 

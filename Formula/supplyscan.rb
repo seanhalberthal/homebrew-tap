@@ -1,13 +1,13 @@
 class Supplyscan < Formula
   desc "Security scanner for JavaScript lockfiles — detects supply chain compromises and vulnerabilities"
   homepage "https://github.com/seanhalberthal/supplyscan"
-  version "1.10.0"
+  version "1.10.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/seanhalberthal/supplyscan/releases/download/v1.10.0/supplyscan-darwin-arm64"
-      sha256 "88b99e751181e56e4ac52b54ff7cebc416140d1b32a5125fe3d60c13d6530b7f"
+      url "https://github.com/seanhalberthal/supplyscan/releases/download/v1.10.1/supplyscan-darwin-arm64"
+      sha256 "857cd13cb183c87b3f07b95bccaac293945e3a22b6b916367881cd18b39b3bc6"
 
       def install
         bin.install "supplyscan-darwin-arm64" => "supplyscan"
@@ -15,8 +15,8 @@ class Supplyscan < Formula
     end
 
     on_intel do
-      url "https://github.com/seanhalberthal/supplyscan/releases/download/v1.10.0/supplyscan-darwin-amd64"
-      sha256 "506e4ad96c472a73616033876f533015bbcac59786acb33e4c767abcd16d2c86"
+      url "https://github.com/seanhalberthal/supplyscan/releases/download/v1.10.1/supplyscan-darwin-amd64"
+      sha256 "51e1af802c29ca7804cb4bc4441456421c80f25cc0e9c0abdeee6cd09e32cd2d"
 
       def install
         bin.install "supplyscan-darwin-amd64" => "supplyscan"
@@ -26,8 +26,8 @@ class Supplyscan < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/seanhalberthal/supplyscan/releases/download/v1.10.0/supplyscan-linux-arm64"
-      sha256 "52980f215bb0281683a07a32ec5555c6765d1c4339908eb68d21db0591c4050f"
+      url "https://github.com/seanhalberthal/supplyscan/releases/download/v1.10.1/supplyscan-linux-arm64"
+      sha256 "5f277ff5955b04e003eeb0b1b849e61351116a43712e8397e58fdde8626b9d83"
 
       def install
         bin.install "supplyscan-linux-arm64" => "supplyscan"
@@ -35,8 +35,8 @@ class Supplyscan < Formula
     end
 
     on_intel do
-      url "https://github.com/seanhalberthal/supplyscan/releases/download/v1.10.0/supplyscan-linux-amd64"
-      sha256 "4123824c428c4d945fb41ba65b42f40fffb8657830bf48ae9245b6a0cc91781c"
+      url "https://github.com/seanhalberthal/supplyscan/releases/download/v1.10.1/supplyscan-linux-amd64"
+      sha256 "124c6bd37189d57649c37f08c13698653c6599ca5d3fb55bde1dd3c0949d7ea9"
 
       def install
         bin.install "supplyscan-linux-amd64" => "supplyscan"

@@ -27,7 +27,6 @@ class Jiru < Formula
   def install
     binary = Dir["jiru-*"].first || "jiru"
     bin.install binary => "jiru"
-    generate_completions_from_executable(bin/"jiru", "completion")
   end
 
   test do
